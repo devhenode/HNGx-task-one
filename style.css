@@ -1,13 +1,13 @@
 body {
     box-sizing: 0;
 }
-#card {
+.card {
     padding: 20px;
     text-align: center;
     color: black;
 }
 
-#slackDisplayImage {
+#slackImage {
     margin: 30px;
     width: 40%;
     height: 30%;
