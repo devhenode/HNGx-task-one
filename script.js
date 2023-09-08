@@ -1,11 +1,8 @@
 function getCurrentDay() {
     const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    
     const now = new Date();
-
     const dayOfWeek = now.getDay();
-
-    return daysOfWeek[dayOfWeek]
+    return daysOfWeek[dayOfWeek];
  
 }
 
@@ -17,10 +14,10 @@ function getCurrentTime() {
     return `${hours}:${minutes}:${seconds}`;
 }
 
-const day = getCurrentDay()
+const day = getCurrentDay();
 const currentTime = getCurrentTime();
 
-let date = document.getElementById("currentDayofTheWeek").innerHTML = "Day of the week: " + day;
+let date = document.getElementById("currentDayOfTheWeek").innerHTML = "Day of the week: " + day;
 let moment = document.getElementById("currentUTCTime").innerHTML = "Current UTC time: " + currentTime;
 
 
