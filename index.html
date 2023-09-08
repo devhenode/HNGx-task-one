@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="card">
+    <div class="card">
         
-        <img src="studio.JPG" id="slackDisplayImage" alt="Henry Oderinde" />
+        <img src="studio.JPG" data-testid="slackDisplayImage" id="slackImage" alt="Henry Oderinde" />
 
-        <h3 id="slackUserName">Slack Name: Henry Oderinde</h3>
+        <h3 data-testid="slackUserName" id="slackUserName">Slack Name: Henry Oderinde</h3>
         
-        <h3 id="currentDayofTheWeek">Day of the week:</h3>
+        <h3 data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek">Day of the week:</h3>
 
-        <h4 id="currentUTCTime">Current UTC time:</h4>
+        <h4 data-testid="currentUTCTime" id="currentUTCTime">Current UTC time:</h4>
 
-        <h4 id="myTrack">Track: Frontend</h4>
+        <h4 data-testid="myTrack" id="myTrack">Track: Frontend</h4>
 
-        <h4 id="githubURL">GitHub URL: https://github.com/devhenode/HNGx-task-one</h4>
-    </div>
+        <h4 data-testid=“githubURL” id="githubURL"><a href="https://github.com/devhenode/HNGx-task-one">GitHub URL</a></h4>
+ </div>
 
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
